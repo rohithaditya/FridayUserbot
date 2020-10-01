@@ -154,10 +154,10 @@ async def on_afk(event):
                 f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"**My Master is Afk**  \nAFKT : `{total_afk_time}`\nReason : {reason}"
-            + f"\n\n~~He Will Reply To You Soon!~~"
+            f"**My Master is Afk,I am now MOOD OUT AS MY MASTER IS ON AFK. BUT DON'T WORRY **  \nAFKT : `{total_afk_time}`\nReason : {reason}"
+            + f"\n\n~~He Will Reply To You Soon! UNTIL THEN DON'T TAG AGAIN AND AGAIN OR ELSE YOU WILL BE BLOCKED ~~"
             if reason
-            else f"**My Master is Afk**\n AFK : `{total_afk_time}` ~~He Will Comeback Soon~~"
+            else f"**My Master is Afk. I am now MOOD OUT AS MY MASTER IS ON AFK. BUT DON'T WORRY READ REASON **\n AFK : `{total_afk_time}` ~~DONT TAG AGAIN AND AGAIN IR ELSE I WILL BLOCK YOU UP!!!! Good bye~~"
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
